@@ -6,7 +6,7 @@ metadata:
     tier: frontend
 spec:
   containers:
-    - image: myimage:latest
+    - image: somanshahuja/myimage:latest
       name: nodewebapp
       ports:
         - containerPort: 3040
