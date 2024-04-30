@@ -19,6 +19,6 @@ spec:
       containers:
         - name: mynode
           imagePullPolicy: Never
-          image: somansh-image:latest
+          image: myimage:latest
           ports:
             - containerPort: 3040

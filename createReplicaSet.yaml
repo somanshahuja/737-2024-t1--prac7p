@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: mynode
-          image: somansh-image:latest
+          image: myimage:latest
           ports:
             - containerPort: 3040
