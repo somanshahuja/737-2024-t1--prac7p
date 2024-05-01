@@ -8,9 +8,8 @@ spec:
   clusterIP: 10.99.132.220
   externalTrafficPolicy: Cluster
   ports:
-  - name: myport
-    port: 8037
-    protocol: TCP
-    targetPort: 3040
+    - name: myport
+      port: 8037 #this is the port to access the localhost
+      protocol: TCP
+      targetPort: 3040 # this is the target port
   type: LoadBalancer
-  
