@@ -2,7 +2,7 @@ version: '3.8'
 services:
   app:
     build: .
-    image: alamfaisal654/node-web-app
+    image: somanshahuja/myimage:1.1.1
     ports:
       - '3043:3040'
     environment:
@@ -13,7 +13,7 @@ services:
 
   app1:
     build: .
-    image: alamfaisal654/node-web-app
+    image: somanshahuja/myimage:1.1.1
     ports:
       - '3044:3040'
     environment:

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: mynode
-          imagePullPolicy: Never
-          image: somanshahuja/myimage:latest
+          # imagePullPolicy: Never
+          image: somanshahuja/myimage:1.1.1
           ports:
             - containerPort: 3040
